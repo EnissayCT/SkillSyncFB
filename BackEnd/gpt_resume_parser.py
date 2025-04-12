@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-openai.api_key = "sk-proj-zTxbZ__c3vTWW__nzfz5RT76rmGXMyaDr5YvsVJc2f_YZVH_ycHc2nlamhgQSIYBukbiR41Eglq2sKzxPve4Q28Zw8rKABIZjvCoroqHYA"  # Replace with your OpenAI API key
+openai.api_key = "sk-proj-zTxbZ__c3vTWW__nzfz5RT76rmGXMyaDr5YvsVJc2_QSIYBukbiR41Eglq2sKzxPve4Q28Zw8rKABIZjvCoroqHYA"  # Replace with your OpenAI API key
 
 def extract_text_from_pdf(pdf_path):
     doc = fitz.open(pdf_path)
